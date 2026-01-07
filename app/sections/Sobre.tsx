@@ -10,7 +10,7 @@ function Sobre() {
     threshold: 0.4,
   });
 
-const animarRef = useRef<HTMLParagraphElement>(null);
+  const animarRef = useRef<HTMLParagraphElement>(null);
 
   useEffect(() => {
     const elemento = animarRef.current;
@@ -19,7 +19,7 @@ const animarRef = useRef<HTMLParagraphElement>(null);
       ([entry]) => {
         if (entry.isIntersecting) {
           elemento.classList.remove("opacity-0", "translate-y-11", "blur-xs");
-           observer.unobserve(elemento);
+          observer.unobserve(elemento);
         }
       },
       { threshold: 0.4 }
@@ -127,7 +127,10 @@ const animarRef = useRef<HTMLParagraphElement>(null);
           className="w-200 h-1 bg-linear-to-r from-gray-50/0 via-[#D0B06E] to-gray-50/0"
         ></div>
 
-        <p ref={animarRef} className="animar opacity-0 translate-y-11 blur-xs transition-all duration-700 mt-10 mx-30 my-10 text-3xl text-[#D0B06E] leading-12 font-libre">
+        <p
+          ref={animarRef}
+          className="animar opacity-0 translate-y-11 blur-xs transition-all duration-700 mt-10 mx-30 my-10 text-3xl text-[#D0B06E] leading-12 font-libre"
+        >
           "A Civix Advocacia é uma associação de advogados sediada em Manaus,
           Amazonas, com atuação estratégica na capital e no interior do estado.
           Nosso trabalho é orientado pela análise técnica, pela responsabilidade

@@ -44,16 +44,8 @@ nav {
     overflow-y: hidden;
   }
 
-  #LADO-ESQUERDO-SOBRE {
-    scale: 0.9;
-    margin-left: -100;
-    margin-top: 32px;
-  }
-
-  #LADO-DIREITO-SOBRE {
-    scale: 0.8;
-    margin-top: -10px;
-    margin-left: 45px;
+  #sobre {
+    margin-right: 60px;
   }
 }
 
