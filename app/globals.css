@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.font-libre {
+  font-family: var(--font-libre);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+#botao-contato {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header {
+  border-bottom: solid 2px #d0af6c5e;
+}
+
+nav {
+  border-left: 2px solid #d0af6c5e;
+  border-right: 2px solid #d0af6c5e;
+}
+
+#quadrado {
+  border-bottom-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+
+@media (max-width: 1366px) {
+  #text-container {
+    scale: 0.8;
+    margin-left: -80px;
+    margin-top: -80px;
+  }
+
+  #herostatue {
+    scale: 0.84;
+    margin-top: -20px;
+  }
+
+  #HOME {
+    height: 700px;
+    overflow-y: hidden;
+  }
+
+  #LADO-ESQUERDO-SOBRE {
+    scale: 0.9;
+    margin-left: -100;
+    margin-top: 32px;
+  }
+
+  #LADO-DIREITO-SOBRE {
+    scale: 0.8;
+    margin-top: -10px;
+    margin-left: 45px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (max-width: 1600px) {
+  #text-container {
+    scale: 0.8;
+    margin-left: -80px;
+    margin-top: -80px;
+  }
+
+  #herostatue {
+    scale: 0.84;
+    margin-top: -20px;
+  }
+
+  #HOME {
+    height: 800px;
+    overflow-y: hidden;
+  }
+
+  #LADO-ESQUERDO-SOBRE {
+    scale: 0.9;
+    margin-left: -100;
+    margin-top: 32px;
+  }
+
+  #LADO-DIREITO-SOBRE {
+    scale: 0.8;
+    margin-top: -10px;
+    margin-left: 45px;
+  }
+  #sobre {
+    margin-left: 40px;
+  }
 }
