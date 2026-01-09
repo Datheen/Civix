@@ -24,7 +24,7 @@ function Hero() {
   return (
     <div
       id="HOME"
-      className="h-233 flex relative overflow-y-hidden mx-auto w-full max-w-460" 
+      className="h-233 flex relative overflow-y-hidden mx-auto w-full" 
       style={{ backgroundImage: `url(/img/home/hero.webp)` }}
     >
       <div id="LADO-ESQUERDO" className="h-233 bg-blue-950/40 w-[55%]">
@@ -32,15 +32,15 @@ function Hero() {
           id="text-container"
           className="animar translate-y-11 transition-all duration-700 opacity-0 blur-xs ml-14 flex flex-col gap-5"
         >
-          <p className=" text-white/70 ml-17 font-medium mt-28 text-[16pt] underline">
+          <p className=" text-white/70 ml-17 font-semibold mt-28 text-[16pt] underline">
             INOVANDO IDEIAS
           </p>
 
           <h1
             id="hero-text"
-            className=" justify-center font-semibold items-center ml-15 text-shadow-2xl text-start text-white/80 w-240 z-10 text-7xl leading-24 font-libre"
+            className=" justify-center items-center ml-15 text-shadow-2xl text-start text-white/80 w-240 z-10 text-7xl leading-24 font-libre"
           >
-            Onde a lei encontra posicionamento e decisão. Advocacia estratégica
+            Onde a lei encontra <span className="text-[#d0af6c]">posicionamento</span> e decisão. Advocacia <span className="text-[#d0af6c]">estratégica </span>
             para quem precisa de resposta.
           </h1>
 
@@ -63,7 +63,7 @@ function Hero() {
 
             <div className="flex gap-7">
               <div className="ml-15 mt-17 h-16 w-1 bg-[#d0af6c]"></div>
-              <span className="mt-17 text-2xl text-[#d0af6c]">
+              <span className="mt-17 text-2xl font-medium text-shadow-2xs  text-[#d0af6c]">
                 Lei, estratégia e posicionamento. <br />
                 Atuamos onde decisões importam.
               </span>

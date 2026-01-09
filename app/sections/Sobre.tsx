@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
+
 function Sobre() {
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -33,7 +34,7 @@ function Sobre() {
   return (
     <div
       id="SOBRE"
-      className="flex flex-col justify-center items-center bg-[#1E2833] w-full mx-auto max-w-460"
+      className="flex flex-col justify-center items-center bg-[#1E2833] w-full mx-auto"
     >
       <div id="sobre" className="h-auto w-full flex">
         <div id="LADO-ESQUERDO-SOBRE" className="w-[50%] mt-30 h-auto pt-20">
@@ -131,7 +132,7 @@ function Sobre() {
           ref={animarRef}
           className="animar opacity-0 translate-y-11 blur-xs transition-all duration-700 mt-10 mx-30 my-10 text-3xl text-[#D0B06E] leading-12 font-libre"
         >
-          "A Civix Advocacia é uma associação de advogados sediada em Manaus,
+          A Civix Advocacia é uma associação de advogados sediada em Manaus,
           Amazonas, com atuação estratégica na capital e no interior do estado.
           Nosso trabalho é orientado pela análise técnica, pela responsabilidade
           profissional e pela busca de soluções jurídicas adequadas à realidade
@@ -147,8 +148,10 @@ function Sobre() {
           e tecnicamente fundamentado. A Civix Advocacia acredita na advocacia
           exercida com ética, transparência e compromisso, mantendo o cliente
           informado, respeitando prazos e atuando com responsabilidade em todas
-          as etapas do trabalho jurídico."
+          as etapas do trabalho jurídico.
         </p>
+
+        
       </div>
     </div>
   );

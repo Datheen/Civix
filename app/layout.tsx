@@ -16,12 +16,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="pt-BR" className={libreBaskerville.variable}>
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {/* ROOT CONTAINER */}
+        <div id="app-root">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

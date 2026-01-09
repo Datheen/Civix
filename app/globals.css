@@ -4,6 +4,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#app-root {
+  width: 100%;
+  max-width: 1280px;      /* ajuste se quiser */
+  margin: 0 auto;
+  position: relative;
+  overflow-x: clip;      /* melhor que hidden */
+}
+
 .font-libre {
   font-family: var(--font-libre);
 }
