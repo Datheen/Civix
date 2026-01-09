@@ -114,46 +114,11 @@ function Sobre() {
         </div>
       </div>
 
-      <div className="text-center flex flex-col items-center justify-center">
-        <div className="w-full bg-[#D0B06E] h-1"></div>
+      
+<div></div>
 
-        <h1
-          id="text-sobre-title"
-          className="text-5xl py-2 font-bold text-white/90 mt-30"
-        >
-          Sobre a <span className="text-[#D0B06E]">CIVIX</span> Advocacia
-        </h1>
-        <div
-          id="line"
-          className="w-200 h-1 bg-linear-to-r from-gray-50/0 via-[#D0B06E] to-gray-50/0"
-        ></div>
-
-        <p
-          ref={animarRef}
-          className="animar opacity-0 translate-y-11 blur-xs transition-all duration-700 mt-10 mx-30 my-10 text-3xl text-[#D0B06E] leading-12 font-libre"
-        >
-          A Civix Advocacia é uma associação de advogados sediada em Manaus,
-          Amazonas, com atuação estratégica na capital e no interior do estado.
-          Nosso trabalho é orientado pela análise técnica, pela responsabilidade
-          profissional e pela busca de soluções jurídicas adequadas à realidade
-          de cada cliente. Atuamos de forma preventiva e contenciosa, oferecendo
-          assessoria jurídica, elaboração e revisão de contratos, acompanhamento
-          processual, atuação administrativa e judicial, além de orientação
-          contínua para pessoas físicas e jurídicas. Cada demanda é tratada de
-          maneira individual, com atenção aos detalhes legais e aos impactos
-          práticos das decisões. Nossa atuação no Amazonas nos permite
-          compreender as particularidades regionais, os órgãos locais, a
-          dinâmica do Judiciário e as necessidades específicas de quem vive e
-          empreende no estado. Isso se reflete em um atendimento próximo, claro
-          e tecnicamente fundamentado. A Civix Advocacia acredita na advocacia
-          exercida com ética, transparência e compromisso, mantendo o cliente
-          informado, respeitando prazos e atuando com responsabilidade em todas
-          as etapas do trabalho jurídico.
-        </p>
-
-        
-      </div>
     </div>
+    
   );
 }
 

@@ -1,6 +1,18 @@
 import type { Metadata } from "next";
-import { Libre_Baskerville } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google"
+import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+
+
+
+export const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-cormorant",
+  display: "swap",
+});
+
 
 const libreBaskerville = Libre_Baskerville({
   subsets: ["latin"],
@@ -20,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR" className={libreBaskerville.variable}>
+    <html lang="pt-BR" className={`${libreBaskerville.variable} ${cormorant.variable}`}>
       <body suppressHydrationWarning>
         {/* ROOT CONTAINER */}
         <div id="app-root">

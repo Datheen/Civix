@@ -6,14 +6,18 @@ body {
 
 #app-root {
   width: 100%;
-  max-width: 1840px;      /* ajuste se quiser */
+  max-width: 1840px;
   margin: 0 auto;
   position: relative;
-  overflow-x: clip;      /* melhor que hidden */
+  overflow-x: clip;     
 }
 
 .font-libre {
   font-family: var(--font-libre);
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant);
 }
 
 #botao-contato {
@@ -88,4 +92,24 @@ nav {
   #sobre {
     margin-left: 40px;
   }
+
+
+
+}
+
+
+@media (max-width:1200px) {
+
+    #LADO-ESQUERDO-SOBRE {
+    scale: 0.8;
+    margin-left: -100;
+    margin-top: 32px;
+  }
+
+  #LADO-DIREITO-SOBRE {
+    scale: 0.6;
+    margin-top: -10px;
+    margin-left: -18px;
+  }
+  
 }

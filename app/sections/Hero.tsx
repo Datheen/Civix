@@ -30,15 +30,15 @@ function Hero() {
       <div id="LADO-ESQUERDO" className="h-233 bg-blue-950/40 w-[55%]">
         <div
           id="text-container"
-          className="animar translate-y-11 transition-all duration-700 opacity-0 blur-xs ml-14 flex flex-col gap-5"
+          className="animar translate-y-11 transition-all duration-700 opacity-0 blur-xs ml-20 flex flex-col gap-5"
         >
-          <p className=" text-white/70 ml-17 font-semibold mt-28 text-[16pt] underline">
+          <p className=" text-white/70 ml-17 font-semibold mt-32 text-[16pt] underline">
             INOVANDO IDEIAS
           </p>
 
           <h1
             id="hero-text"
-            className=" justify-center items-center ml-15 text-shadow-2xl text-start text-white/80 w-240 z-10 text-7xl leading-24 font-libre"
+            className=" justify-center items-center mt-10 ml-15 text-shadow-2xl text-start text-white/80 w-230 z-10 text-[5.5rem] leading-22 font-semibold font-cormorant"
           >
             Onde a lei encontra <span className="text-[#d0af6c]">posicionamento</span> e decisão. Advocacia <span className="text-[#d0af6c]">estratégica </span>
             para quem precisa de resposta.
