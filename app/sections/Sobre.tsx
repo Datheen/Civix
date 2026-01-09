@@ -114,8 +114,29 @@ function Sobre() {
         </div>
       </div>
 
-      
-<div></div>
+      <div className="w-full h-2 bg-[#AC925F]"></div>
+<div id="sobre-bottom" className="flex mt-25">
+
+
+
+
+<div className="h-auto w-[50%] p-15 ml-20">
+<h1 className="text-5xl font-semibold font-cormorant text-[#D0B06E]">Nós somo os melhores em fidelidade e satisfação do cliente</h1>
+<p className="text-2xl text-white mt-22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur cumque in itaque, ab assumenda fuga dolorem non laboriosam possimus sequi facere vero et soluta doloremque ullam unde exercitationem expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur aliquid quidem excepturi minima omnis libero consectetur, ipsum voluptatibus. Doloribus labore et cumque. Illum praesentium ducimus est expedita nihil explicabo?</p>
+
+
+<h1 className="text-5xl mt-5 font-cormorant text-[#D0B06E]">1992</h1>
+
+<p className="text-2xl text-white mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere, placeat voluptatibus modi ipsa sint, exercitationem, doloremque repudiandae delectus facilis dolorum possimus nihil ipsam repellendus cumque esse vel cupiditate perferendis! </p>
+</div>
+
+<div id="sobre-lower" className="w-[50%]">
+<img id="mulher" className="ml-50 w-110" src="/img/sobre/mulher.webp"/>
+
+</div>
+
+</div>
+<div className="w-full h-2  bg-[#D0B06E]"></div>
 
     </div>
     

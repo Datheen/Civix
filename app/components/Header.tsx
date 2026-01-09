@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex h-23 bg-[#1D2129] w-full mx-auto max-w-460 items-center justify-around">
+    <header className="fixed top-0 left-0 right-0 z-50 flex h-23 bg-blue-950/60 backdrop-blur-xl backdrop-saturate-150 w-full mx-auto max-w-460 items-center justify-around border-b border-blue-400/30 " >
       <div>
         <img
           className="w-35 hover:cursor-pointer"

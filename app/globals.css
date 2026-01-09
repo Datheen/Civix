@@ -9,7 +9,7 @@ body {
   max-width: 1840px;
   margin: 0 auto;
   position: relative;
-  overflow-x: clip;     
+  overflow-x: clip;
 }
 
 .font-libre {
@@ -26,7 +26,12 @@ body {
 }
 
 header {
-  border-bottom: solid 2px #d0af6c5e;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 58, 138, 0.4) 0%,
+    rgba(59, 130, 246, 0.25) 100%
+  );
+  border-bottom: solid 1px rgba(96, 165, 250, 0.3);
 }
 
 nav {
@@ -93,14 +98,13 @@ nav {
     margin-left: 40px;
   }
 
-
-
+  #mulher {
+    margin-top: 144px;
+  }
 }
 
-
-@media (max-width:1200px) {
-
-    #LADO-ESQUERDO-SOBRE {
+@media (max-width: 1200px) {
+  #LADO-ESQUERDO-SOBRE {
     scale: 0.8;
     margin-left: -100;
     margin-top: 32px;
@@ -111,5 +115,4 @@ nav {
     margin-top: -10px;
     margin-left: -18px;
   }
-  
 }

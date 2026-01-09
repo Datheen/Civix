@@ -24,7 +24,7 @@ function Hero() {
   return (
     <div
       id="HOME"
-      className="h-233 flex relative overflow-y-hidden mx-auto w-full" 
+      className="h-233 flex relative overflow-y-hidden mx-auto w-full pt-23" 
       style={{ backgroundImage: `url(/img/home/hero.webp)` }}
     >
       <div id="LADO-ESQUERDO" className="h-233 bg-blue-950/40 w-[55%]">
